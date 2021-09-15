@@ -1,0 +1,8 @@
+• What is a gitignore file and what should it include for a Java project? 
+- It adds file extensions for files you do not want to put in source control. .project, .class, .log files, .jar, .war is included for a java project.
+• What does fast-forward in Git mean?
+- Fast forward merge can be performed when there is a direct linear path from the source branch to the target branch. In fast-forward merge, git simply moves the source branch pointer to the target branch pointer without creating an extra merge commit.
+• Why should you have different branches?
+- Branching allows developer to branch out from the original code base and isolate their work from others. It also helps Git to easily merge versions later on.
+• In a project how many remote Git repositories do you usually have?
+- One remote repository with origin.
